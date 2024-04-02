@@ -14,7 +14,7 @@ const app = Vue.createApp({
               { icon: "/x-twitter.svg", link: "#" },
               { icon: "/youtube.svg", link: "#" },
             ],
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero placeat aliquam illo fugit laboriosam! Quos, dignissimos necessitatibus, saepe natus mollitia distinctio adipisci quam unde nam ipsum consequatur hic ratione animi.",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
           },
           {
             name: "Serenmew",
@@ -26,7 +26,7 @@ const app = Vue.createApp({
               { icon: "/x-twitter.svg", link: "#" },
               { icon: "/youtube.svg", link: "#" },
             ],
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero placeat aliquam illo fugit laboriosam! Quos, dignissimos necessitatibus, saepe natus mollitia distinctio adipisci quam unde nam ipsum consequatur hic ratione animi.",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero placeat aliquam illo fugit laboriosam!",
           },
           
           // Add more player objects here, each with a 'games' field if applicable

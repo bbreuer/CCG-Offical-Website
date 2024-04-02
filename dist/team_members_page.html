@@ -36,8 +36,8 @@
           <div class="ml-4 h-40 w-1/4 rounded-xl my-2">
             <img class="object-contain w-full h-full overflow-hidden" :src="player.imageUrl">
           </div>
-          <div class="w-1/2 ml-10">
-            <h1 class="ccg-blue font-light text-4xl">{{ player.name }}</h1>
+          <div class="w-1/2 ml-8">
+            <h1 class="ccg-blue font-light text-4xl max-sm:text-2xl">{{ player.name }}</h1>
             <div class="flex gap-4 p-2">
               <img v-for="social in player.socials" class="h-6 hover:cursor-pointer" :src="social.icon">
             </div>
