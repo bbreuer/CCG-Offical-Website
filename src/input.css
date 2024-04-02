@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+
+  .ccg-blue{
+    color: #1096CF;
+  }
+
+  .hover-cyan:hover {
+    filter: brightness(0) saturate(100%) invert(21%) sepia(89%) saturate(1352%) hue-rotate(169deg) brightness(101%) contrast(101%);
+  }
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCG Website</title>
+    <link href="output.css" rel="stylesheet">
+    <link rel="shortcut icon" href="/favicon.ico">
+</head>
+<body class="h-screen w-screen flex flex-col">    
+    <div id="navbar" class="h-20 w-full bg-black flex justify-between items-center">
+        <a href="/dist/index.html"><img class="h-16 ml-4 fade-in" src="/CCG Logo Border Small.png"></a>
+        <div class="flex gap-4 h-20 items-center mr-10">
+            <a href="https://www.twitch.tv/coolcatgang"><img class="h-6 hover:cursor-pointer fade-in hover-cyan" src="/twitch.png" alt="twitch_logo"></a>
+            <a href="https://discord.gg/AAdbzBq5Hc"><img class="h-6 hover:cursor-pointer fade-in hover-cyan" src="/discord.png" alt="discord_logo"></a>
+            <a href="https://www.youtube.com/coolcatgang"><img class="h-6 hover:cursor-pointer fade-in hover-cyan" src="/youtube.png" alt="youtube_logo"></a>
+            <a href="https://twitter.com/CoolCatsGame?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img class="h-6 hover:cursor-pointer fade-in hover-cyan" src="/x-twitter.png" alt="twitter_logo"></a>
+            <a href="/dist/team_members_page.html"><img class="h-6 hover:cursor-pointer fade-in hover-cyan" src="/user-solid.png" alt="team_members_logo"></a>
+            <a href="/dist/merch_page.html"><img class="h-6 hover:cursor-pointer fade-in hover-cyan" src="/shop-solid.png" alt="merch_shop"></a>
+        </div>
+    </div>
+
+    <div id="twitch_panel_section" class="bg-slate-700 flex-grow overflow-auto flex max-sm:flex-col justify-between items-center">
+        
+        <div id="twitch stream" class="border-2 border-white h-full w-full bg-cyan-400 text-center">
+            <iframe src="https://player.twitch.tv/?channel=coolcatgang&parent=twitch.com&parent=127.0.0.1" frameborder="0" allowfullscreen="true" 
+                scrolling="no" class="h-full w-full">
+            </iframe>
+        </div>
+        
+        <div class="h-full w-80 max-sm:w-full border-2 border-white bg-cyan-300  pb-10">
+            <iframe
+                id="chat_embed"
+                src="https://www.twitch.tv/embed/coolcatgang/chat?parent=127.0.0.1"
+                class="h-full w-full ">
+            </iframe>
+        </div>
+    </div>
+
+    
+   
+    <footer id="footer" class="bg-black h-10 w-full absolute bottom-0 left-0 flex justify-center items-center">
+        <h1 class="text-white font-extralight">©2024 Cool Cat Gang</h1>
+    </footer>
+    
+</body>
+</html>
+
+
+<!--#1096CF Color of CCG Cat-->
