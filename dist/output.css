@@ -569,6 +569,10 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
 .ml-4 {
   margin-left: 1rem;
 }
@@ -819,8 +823,26 @@ video {
   filter: brightness(0) saturate(100%) invert(21%) sepia(89%) saturate(1352%) hue-rotate(169deg) brightness(101%) contrast(101%);
 }
 
+.inter-ccg {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+      "slnt" 0;
+}
+
 .hover\:cursor-pointer:hover {
   cursor: pointer;
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
 
 @media not all and (min-width: 640px) {
@@ -841,4 +863,3 @@ video {
     line-height: 2rem;
   }
 }
-

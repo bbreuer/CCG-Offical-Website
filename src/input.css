@@ -26,3 +26,13 @@
     filter: brightness(0) saturate(100%) invert(21%) sepia(89%) saturate(1352%) hue-rotate(169deg) brightness(101%) contrast(101%);
   }
 
+
+  
+  .inter-ccg {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
