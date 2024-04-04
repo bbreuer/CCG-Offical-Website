@@ -22,7 +22,7 @@
     <!--Player Card Section-->
     <div data-theme="dark" id="twitch_panel_section" class="bg-slate-700 flex-grow overflow-auto flex-col justify-center gap-10">
         
-      <select v-model="selectedGame" class="w-full text-center">
+      <select v-model="selectedGame" class="w-full h-12 text-center">
         <option value="">Filter by game</option>
         <option v-for="game in games" :value="game">{{ game }}</option>
       </select>
@@ -53,7 +53,8 @@
           <a href="https://twitter.com/CoolCatsGame?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img class="h-6 hover:cursor-pointer fade-in hover-cyan" src="/x-twitter.png" alt="twitter_logo"></a>
       </div>
   
-</footer>
+    </footer>
+    
     
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="app.js"></script>
