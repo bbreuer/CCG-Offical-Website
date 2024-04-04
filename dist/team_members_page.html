@@ -16,18 +16,19 @@
             <a href="/dist/merch_page.html"><h1 class="ccg-blue hover:underline hover:text-white inter-ccg" alt="merch_shop">Merch</h1></a>
         </div>
     </div>
-
+    
+    
 
     <!--Player Card Section-->
-    <div id="twitch_panel_section" class="bg-slate-700 flex-grow overflow-auto flex-col justify-center gap-10">
+    <div data-theme="dark" id="twitch_panel_section" class="bg-slate-700 flex-grow overflow-auto flex-col justify-center gap-10">
         
       <select v-model="selectedGame" class="w-full text-center">
-            <option value="">Filter by game</option>
-            <option v-for="game in games" :value="game">{{ game }}</option>
+        <option value="">Filter by game</option>
+        <option v-for="game in games" :value="game">{{ game }}</option>
       </select>
-        
-        
-        
+      
+      <div class="divider divider-info">Team Roster</div> 
+
         <div v-for="player in filteredPlayers" class="fade-in h-52 border-2 border-white mx-10 mt-10 rounded-xl shadow-2xl flex justify-start items-center">
           <div class="ml-4 h-40 w-1/4 rounded-xl my-2">
             <img class="object-contain w-full h-full overflow-hidden" :src="player.imageUrl">
@@ -39,8 +40,8 @@
             </div>
             <p class="text-xs text-white">{{ player.description }}</p>
           </div>
+          </div>
         </div>
-      </div>
     <!--Player Card Section-->
     
     <footer id="footer" class="bg-black h-10 w-full flex justify-between gap-4 items-center">
