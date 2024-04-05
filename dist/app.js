@@ -19,7 +19,7 @@ const app = Vue.createApp({
           {
             name: "Silver",
             imageUrl: "/silver.jpg",
-            games: ['Super Mario 64', 'Super Mario Odyssey'], // Serenmew plays both games
+            games: ['Super Mario 64'], // Serenmew plays both games
             socials: [
               { icon: "/twitch.svg", link: "#" },
               { icon: "/discord.svg", link: "#" },
@@ -31,7 +31,7 @@ const app = Vue.createApp({
           {
             name: "Tharoah",
             imageUrl: "/tharoah.jpg",
-            games: ['Super Mario 64', 'Super Mario Odyssey'], // Serenmew plays both games
+            games: ['Super Mario 64'], // Serenmew plays both games
             socials: [
               { icon: "/twitch.svg", link: "#" },
               { icon: "/discord.svg", link: "#" },
