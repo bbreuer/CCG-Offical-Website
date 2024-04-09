@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="h-screen flex flex-col overflow-x-hidden"> 
     
@@ -33,7 +34,7 @@
       
       <div class="divider divider-info">Team Roster</div> 
 
-        <div v-for="player in filteredPlayers" class="fade-in h-52 border-2 border-white mx-10 mt-10 rounded-xl shadow-2xl flex justify-start items-center">
+        <div data-aos="fade-right" data-aos-duration="2000" v-for="player in filteredPlayers" class="fade-in h-52 border-2 border-white mx-10 mt-10 rounded-xl shadow-2xl flex justify-start items-center">
           <div class="ml-4 h-40 w-1/4 rounded-xl my-2">
             <img class="object-contain w-full h-full overflow-hidden" :src="player.imageUrl">
           </div>
@@ -61,7 +62,10 @@
     
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="app.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
 
