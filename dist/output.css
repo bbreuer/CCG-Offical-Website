@@ -1507,6 +1507,10 @@ html {
   margin-top: 2.5rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -1819,12 +1823,20 @@ html {
     margin-bottom: 2.5rem;
   }
 
+  .sm\:mb-14 {
+    margin-bottom: 3.5rem;
+  }
+
   .sm\:h-40 {
     height: 10rem;
   }
 
-  .sm\:h-screen {
-    height: 100vh;
+  .sm\:h-\[600\] {
+    height: 600;
+  }
+
+  .sm\:h-\[600px\] {
+    height: 600px;
   }
 
   .sm\:text-3xl {
