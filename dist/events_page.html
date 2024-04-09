@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCG Website</title>
+    <link href="output.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/CCG Logo Border Small.png"/>
+</head>
+<body class="h-screen flex flex-col overflow-x-hidden">
+
+    
+    <div id="navbar" class="h-20 w-full bg-black flex justify-between items-center">
+        <a href="/dist/index.html"><img class="h-16 ml-4 fade-in" src="/CCG Logo Border Small.png"></a>
+        <div class="flex gap-4 h-20 items-center mr-10">
+          <a href="/dist/team_members_page.html"><h1 class="ccg-blue hover:underline hover:text-white inter-ccg" alt="Team Roster">Our Team</h1></a>
+          <a href="/dist/events_page.html"><h1 class="ccg-blue hover:underline hover:text-white inter-ccg" alt="Team Roster">Events</h1></a>
+            <a href="/dist/merch_page.html"><h1 class="ccg-blue hover:underline hover:text-white inter-ccg" alt="merch_shop">Merch</h1></a>
+        </div>
+    </div>
+    
+    <div class="h-screen flex flex-col justify-center items-center">
+        <div class="inter-ccg ccg-blue text-3xl">Do you speedrun? Want to show your skills?</div>
+        
+        <div class="inter-ccg ccg-blue text-xl">Sign up today for these future events</div>
+        
+        <div class="grid grid-rows-2 grid-cols-2 gap-4">
+            <!-- First picture centered -->
+            <div class="flex justify-center items-center">
+                <img src="/16_open_logo_star.png" alt="Description of first image" class="h-40">
+            </div>
+            <!-- Second picture centered -->
+            <div class="flex justify-center items-center">
+                <img src="/any_open.png" alt="Description of second image" class="h-40">
+            </div>
+        
+            <!-- Form under the first picture -->
+            <div>
+                <form class="flex justify-center items-center flex-col" action="#" method="POST">
+                    <input type="text" placeholder="Name" class="input input-bordered w-full max-w-xs mb-2 input-info" disabled /> 
+                    <input type="email" placeholder="Email" class="input input-bordered w-full max-w-xs mb-2 input-info" disabled />
+                    <input type="text" placeholder="Twitch name" class="input input-bordered w-full max-w-xs mb-2 input-info" disabled />
+                    <button type="submit" class="btn" disabled>Submit</button>
+                </form>
+            </div>
+        
+            <!-- Form under the second picture -->
+            <div>
+                <form class="flex justify-center items-center flex-col" action="#" method="POST">
+                    <input type="text" placeholder="Name" class="input input-bordered w-full max-w-xs mb-2 input-info" disabled />
+                    <input type="email" placeholder="Email" class="input input-bordered w-full max-w-xs mb-2 input-info" disabled />
+                    <input type="text" placeholder="Twitch name" class="input input-bordered w-full max-w-xs mb-2 input-info" disabled/>
+                    <button type="submit" class="btn" disabled>Submit</button>
+                </form>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+
+
+
+    </div>
+
+   
+    
+    <footer id="footer" class="bg-black h-10 w-full flex justify-between gap-4 items-center">
+        <h1 class="ccg-blue font-extralight ml-10 max-sm:ml-4 inter-ccg">©2024 Cool Cat Gang</h1>
+        <div class="flex gap-4 mr-10 max-sm:mr-4">
+            <a href="https://www.twitch.tv/coolcatgang"><img class="h-6 hover:cursor-pointer fade-in hover-cyan" src="/twitch.svg" alt="twitch_logo"></a>
+            <a href="https://discord.gg/AAdbzBq5Hc"><img class="h-6 hover:cursor-pointer fade-in hover-cyan" src="/discord.png" alt="discord_logo"></a>
+            <a href="https://www.youtube.com/coolcatgang"><img class="h-6 hover:cursor-pointer fade-in hover-cyan" src="/youtube.png" alt="youtube_logo"></a>
+            <a href="https://twitter.com/CoolCatsGame?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img class="h-6 hover:cursor-pointer fade-in hover-cyan" src="/x-twitter.png" alt="twitter_logo"></a>
+        </div>
+    </footer>
+    
+    
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
+
+
+<!--#1096CF Color of CCG Cat-->
