@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="h-screen flex flex-col overflow-x-hidden">
 
@@ -34,14 +35,14 @@
             <div>
                 <!-- First picture centered -->
                 <div class="flex justify-center items-center">
-                    <img src="/16_open_logo_star.png" alt="Description of first image" class="sm:h-40 h-32">
+                    <img data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000" src="/16_open_logo_star.png" alt="Description of first image" class="sm:h-40 h-32">
                 </div>
                 <!-- Form under the first picture -->
                 <div>
                     <form class="flex justify-center items-center flex-col" action="#" method="POST">
-                        <input type="text" placeholder="Name" class="input input-bordered w-full max-w-xs mb-2 input-info"  />
-                        <input type="email" placeholder="Email" class="input input-bordered w-full max-w-xs mb-2 input-info" />
-                        <input type="text" placeholder="Twitch name" class="input input-bordered w-full max-w-xs mb-2 input-info"  />
+                        <input data-aos="flip-up" data-aos-duration="1000" type="text" placeholder="Name" class="input input-bordered w-full max-w-xs mb-2 input-info"  />
+                        <input data-aos="flip-up" data-aos-duration="1500" type="email" placeholder="Email" class="input input-bordered w-full max-w-xs mb-2 input-info" />
+                        <input data-aos="flip-up" data-aos-duration="2000" type="text" placeholder="Twitch name" class="input input-bordered w-full max-w-xs mb-2 input-info"  />
                         <button type="submit" class="btn" disabled>Submit</button>
                     </form>
                 </div>
@@ -51,14 +52,14 @@
             <div>
                 <!-- Second picture centered -->
                 <div class="flex justify-center items-center">
-                    <img src="/any_open.png" alt="Description of second image" class="sm:h-40 h-32">
+                    <img data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000" src="/any_open.png" alt="Description of second image" class="sm:h-40 h-32">
                 </div>
                 <!-- Form under the second picture -->
                 <div>
                     <form class="flex justify-center items-center flex-col" action="#" method="POST">
-                        <input type="text" placeholder="Name" class="input input-bordered w-full max-w-xs mb-2 input-info"  />
-                        <input type="email" placeholder="Email" class="input input-bordered w-full max-w-xs mb-2 input-info" />
-                        <input type="text" placeholder="Twitch name" class="input input-bordered w-full max-w-xs mb-2 input-info" />
+                        <input data-aos="flip-up" data-aos-duration="1000" type="text" placeholder="Name" class="input input-bordered w-full max-w-xs mb-2 input-info"  />
+                        <input data-aos="flip-up" data-aos-duration="1500" type="email" placeholder="Email" class="input input-bordered w-full max-w-xs mb-2 input-info" />
+                        <input data-aos="flip-up" data-aos-duration="2000" type="text" placeholder="Twitch name" class="input input-bordered w-full max-w-xs mb-2 input-info" />
                         <button type="submit" class="btn" disabled>Submit</button>
                     </form>
                 </div>
@@ -83,7 +84,10 @@
     
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="app.js"></script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
 
