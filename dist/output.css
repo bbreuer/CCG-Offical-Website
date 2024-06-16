@@ -1535,6 +1535,10 @@ html {
   height: 10rem;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
 .h-52 {
   height: 13rem;
 }
@@ -1557,18 +1561,6 @@ html {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-4 {
-  height: 1rem;
-}
-
-.h-5 {
-  height: 1.25rem;
-}
-
-.h-2 {
-  height: 0.5rem;
 }
 
 .w-1\/2 {
@@ -1661,18 +1653,14 @@ html {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-custom-blue {
+  --tw-bg-opacity: 1;
+  background-color: rgb(16 150 207 / var(--tw-bg-opacity));
+}
+
 .bg-cyan-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(103 232 249 / var(--tw-bg-opacity));
-}
-
-.bg-slate-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
-}
-
-.bg-\[1096CF\] {
-  background-color: 1096CF;
 }
 
 .bg-cyan-500 {
@@ -1680,9 +1668,9 @@ html {
   background-color: rgb(6 182 212 / var(--tw-bg-opacity));
 }
 
-.bg-cyan-700 {
+.bg-slate-700 {
   --tw-bg-opacity: 1;
-  background-color: rgb(14 116 144 / var(--tw-bg-opacity));
+  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
 }
 
 .object-contain {
