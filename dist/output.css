@@ -1464,6 +1464,22 @@ html {
   }
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .mx-10 {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -1609,6 +1625,10 @@ html {
 
 .max-w-xs {
   max-width: 20rem;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
 }
 
 .flex-grow {
@@ -1841,6 +1861,10 @@ html {
 
   .max-sm\:flex-col {
     flex-direction: column;
+  }
+
+  .max-sm\:pb-\[56\.25\%\] {
+    padding-bottom: 56.25%;
   }
 
   .max-sm\:text-2xl {
