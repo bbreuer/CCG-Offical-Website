@@ -1671,6 +1671,15 @@ html {
   background-color: rgb(51 65 85 / var(--tw-bg-opacity));
 }
 
+.bg-\[1096CF\] {
+  background-color: 1096CF;
+}
+
+.bg-cyan-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(6 182 212 / var(--tw-bg-opacity));
+}
+
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
