@@ -13,14 +13,14 @@
 </head>
 <body class="h-screen flex flex-col overflow-x-hidden"> 
     
-    <div id="navbar" class="h-20 w-full bg-black flex justify-between items-center">
-        <a href="/dist/index.html"><img class="h-16 ml-4 fade-in" src="/CCG Logo Border Small.png"></a>
-        <div class="flex gap-4 h-20 items-center mr-10">
-          <a href="/dist/team_members_page.html"><h1 class="ccg-blue hover:underline hover:text-white inter-ccg" alt="Team Roster">Our Team</h1></a>
-          <a href="/dist/events_page.html"><h1 class="ccg-blue hover:underline hover:text-white inter-ccg" alt="Team Roster">Events</h1></a>
-            <a href="/dist/merch_page.html"><h1 class="ccg-blue hover:underline hover:text-white inter-ccg" alt="merch_shop">Merch</h1></a>
-        </div>
+  <div id="navbar" class="h-20 w-full bg-custom-blue flex justify-between items-center">
+    <a href="/dist/index.html"><img class="h-16 ml-4 fade-in" src="/noborder.png"></a>
+    <div class="flex gap-8 h-20 items-center mr-10">
+        <a href="/dist/team_members_page.html"><h1 class="text-white text-2xl hover:underline hover:text-white teko-font" alt="Team Roster">Team</h1></a>
+        <a href="/dist/events_page.html"><h1 class="text-white text-2xl hover:underline hover:text-white teko-font" alt="Team Roster">Events</h1></a>
+        <a href="/dist/merch_page.html"><h1 class="text-white text-2xl hover:underline hover:text-white teko-font" alt="merch_shop">Merch</h1></a>
     </div>
+  </div>
     
     
 
@@ -34,7 +34,7 @@
       
       <div class="divider divider-info">Team Roster</div> 
 
-        <div data-aos="fade-right" data-aos-duration="2000" v-for="player in filteredPlayers" class="fade-in h-52 border-2 border-white mx-10 mt-10 rounded-xl shadow-2xl flex justify-start items-center">
+        <div data-aos="fade-right" data-aos-duration="2000" v-for="player in filteredPlayers" class="fade-in h-52 border-2 border-white mx-10 mt-10 rounded-xl shadow-2xl flex justify-start items-center mb-14">
           <div class="ml-4 h-40 w-1/4 rounded-xl my-2">
             <img class="object-contain w-full h-full overflow-hidden" :src="player.imageUrl">
           </div>
@@ -46,16 +46,19 @@
             <p class="text-xs text-white">{{ player.description }}</p>
           </div>
           </div>
-        </div>
+          <div class="divider divider-info">Team Roster</div>
+        </div> 
+
     <!--Player Card Section-->
-    
+  
+
     <footer id="footer" class="bg-black h-10 w-full flex justify-between gap-4 items-center">
-      <h1 class="ccg-blue font-extralight ml-10 max-sm:ml-4 inter-ccg">©2024 Cool Cat Gang</h1>
-      <div class="flex gap-4 mr-10 max-sm:mr-4">
-          <a href="https://www.twitch.tv/coolcatgang"><img class="h-6 hover:cursor-pointer fade-in hover-cyan" src="/twitch.svg" alt="twitch_logo"></a>
-          <a href="https://discord.gg/AAdbzBq5Hc"><img class="h-6 hover:cursor-pointer fade-in hover-cyan" src="/discord.png" alt="discord_logo"></a>
-          <a href="https://www.youtube.com/coolcatgang"><img class="h-6 hover:cursor-pointer fade-in hover-cyan" src="/youtube.png" alt="youtube_logo"></a>
-          <a href="https://twitter.com/CoolCatsGame?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img class="h-6 hover:cursor-pointer fade-in hover-cyan" src="/x-twitter.png" alt="twitter_logo"></a>
+      <h1 class="text-white font-extralight ml-2 max-sm:ml-4 inter-ccg">©2024 Cool Cat Gang</h1>
+      <div class="flex gap-4 mr-2 max-sm:mr-4">
+          <a href="https://www.twitch.tv/coolcatgang"><img class="h-5 hover:cursor-pointer fade-in hover-cyan" src="/twitch.svg" alt="twitch_logo"></a>
+          <a href="https://discord.gg/AAdbzBq5Hc"><img class="h-5 hover:cursor-pointer fade-in hover-cyan" src="/discord.png" alt="discord_logo"></a>
+          <a href="https://www.youtube.com/coolcatgang"><img class="h-5 hover:cursor-pointer fade-in hover-cyan" src="/youtube.png" alt="youtube_logo"></a>
+          <a href="https://twitter.com/CoolCatsGame?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img class="h-5 hover:cursor-pointer fade-in hover-cyan" src="/x-twitter.png" alt="twitter_logo"></a>
       </div>
     </footer>
     
