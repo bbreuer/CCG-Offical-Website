@@ -36,3 +36,12 @@
     font-variation-settings:
       "slnt" 0;
   }
+
+ 
+
+.teko-font {
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
